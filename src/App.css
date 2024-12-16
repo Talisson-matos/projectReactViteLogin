@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+
+}
+
+.App{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:100vh;
+    background: rgb(8, 8, 27);
+    background-image: url("assets/image-city-night/photo-1517328894681-0f5dfabd463c.avif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

@@ -1,0 +1,117 @@
+.container{
+    width:400px;
+    background-color: rgba(78, 83, 83, 0.2);
+    backdrop-filter: blur(20px);
+    padding:1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px white;
+
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+    margin: 5px 0 20px;
+
+}
+
+.container .inputField{
+    position:relative;
+    height: 50px;
+    width:100%;
+    margin:10px auto;
+}
+
+.inputField input{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+    outline: none;
+    background: transparent;
+    border: 2px solid white;
+    color:white;
+    font-size:1.2em;
+    padding: 5px 10px;
+    
+}
+
+.inputField input::placeholder{
+    color:white;
+    font-size:1.2em
+}
+
+.inputField .icons{
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 1.3em;
+    color: white;
+}
+
+.container .remenber{
+    display: flex;
+    justify-content:space-between;
+    margin: 30px 0;
+    font-size: 1.2em;
+    color: white;
+}
+.container .remenber input{
+    margin-right:5px;
+   
+}
+
+.container .remenber a{
+    color:white;
+    text-decoration: none;
+    transition: .2s linear
+}
+
+.container .remenber a:hover{
+
+   text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.container button{
+    width:100%;
+    height:50px;
+    border:none;
+    border-radius:10px;
+    font-size:1.2em;
+    transition: .3s linear;
+    text-shadow: none;
+}
+.container button:hover{
+    background:transparent;
+    color: white;
+    border: solid white 2px;
+    cursor:pointer;
+}
+.container button:active{
+    background:white;
+    color: rgb(0, 0, 0);
+    transition: none;
+}
+
+.container .cadastrar{
+    text-align: center;
+    font-size: 1.2em;
+    margin:15px 0 5px
+}
+
+.container .cadastrar p{
+    color:white;
+   
+}
+.container .cadastrar p a{
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+    transition: .2s linear
+
+}
+
+.container .cadastrar p a:hover{
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+
+}
